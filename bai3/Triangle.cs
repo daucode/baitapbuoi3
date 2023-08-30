@@ -135,7 +135,7 @@ namespace bai3
             {
                 Triangle triangle1 = new Triangle(-1, 2, 3); // Hình vi phạm ràng buộc
                 Triangle triangle2 = new Triangle(4, 4, 7);  // Hình vi phạm ràng buộc
-                Triangle triangle3 = new Triangle(3, 4, 5);  // Tam giác thường
+                Triangle triangle3 = new Triangle(4, 4, 5);  // Tam giác thường
                 Triangle triangle4 = new Triangle(5, 5, 5);  // Tam giác đều
                 Triangle triangle5 = new Triangle(5, 5, 7);  // Tam giác cân
             }
