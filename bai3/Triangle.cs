@@ -41,6 +41,16 @@ namespace bai3
                 }
             }
 
+            internal bool TamGiacHopLe(string ma, string mb, string mc)
+            {
+                throw new NotImplementedException();
+            }
+
+            internal bool TamGiacHopLe(double v1, object a, double v2, object b, object doube, object c)
+            {
+                throw new NotImplementedException();
+            }
+
             // Phương thức kiểm tra tam giác hợp lệ
             private Boolean TamGiacHopLe(double a, double b, double c)
             {
