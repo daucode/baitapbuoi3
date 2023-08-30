@@ -33,7 +33,15 @@ namespace bai3
             double dientich = cA.calculateArea();
             Console.WriteLine("Chu vi :" + dientich);
 
-            //xuat thong tin dang Bang
+            //xuat Dang cua tam giac
+            getTriangleType gTT = new getTriangleType();
+            string dangcuatamgiac = gTT.getTriangleType();
+            Console.WriteLine("Day la tam giac :"+dangcuatamgiac);
+
+            //xuat kieu ToString
+            toString tS = new toString();
+            string chuoi = tS.toString();
+            Console.WriteLine("Tat ca thong tin ve tam giac :");
 
 
         }
